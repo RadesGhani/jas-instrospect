@@ -1,0 +1,8 @@
+name = "introspect"
+version = "0.0.1"
+sofile = "introspect.so"
+permission = [
+]
+scope = [
+]
+dependency = []
