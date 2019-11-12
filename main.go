@@ -3,10 +3,11 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"fmt"
+	"log"
 )
 
 type introspectIn struct {
-	Token string 'form: "token"'
+	Token	string	'form: "token"'
 }
 
 func Bootstrap() {
